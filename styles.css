@@ -163,6 +163,30 @@ text-underline-offset: 0.5vh;
     box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.6);
 }
 
+.contact-form {
+
+    display: flexbox;
+    background-color: rgb(203, 20, 20);
+    padding: 7vh;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 10vh;
+    border-radius: 25px;
+}
+
+.contact-form-field {
+
+padding: 2vh;
+
+
+}
+
+.contact-form-label {
+
+    
+
+}
+
 .footer-container {
     background-color: rgb(203, 20, 20);
     display: flex;
