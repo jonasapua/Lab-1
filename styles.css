@@ -72,8 +72,8 @@ margin-bottom: 10vh;
 .hero-text {
 
     font-family: "Playwrite PE", sans-serif;
-    font-size: 25vh;
-    line-height: 10vw;
+    line-height: 200px;
+    font-size: 20vh;
     color: rgb(203, 20, 20);
     text-align: center;
 }
@@ -165,27 +165,37 @@ text-underline-offset: 0.5vh;
 
 .contact-form {
 
-    display: flexbox;
+    display: block;
     background-color: rgb(203, 20, 20);
     padding: 7vh;
     margin: auto;
     width: 50%;
     margin-bottom: 10vh;
     border-radius: 25px;
+    
 }
 
 .contact-form-field {
 
 padding: 2vh;
 
+}
+
+
+input, textarea {
+
+background-color: transparent;
+border-color: white;
+border-width: 2;
+border-top: none;
+border-inline: none;
+padding: 5px;
+margin-top: 10px;
+width: 100%;
 
 }
 
-.contact-form-label {
 
-    
-
-}
 
 .footer-container {
     background-color: rgb(203, 20, 20);
