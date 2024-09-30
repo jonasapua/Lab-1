@@ -158,11 +158,13 @@ text-underline-offset: 0.5vh;
     padding: 5vh;
     margin-top: 10vh;
     border-radius: 25px;
+    margin-bottom: 10vh;
 }
 
 .white-button {
 
     background-color: white;
+    color: black;
     border-radius: 25px;
     padding: 10px;
     margin-top: 15px;
@@ -172,6 +174,13 @@ text-underline-offset: 0.5vh;
     border: none;
     cursor: pointer;
     box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.6);
+}
+
+.white-button:hover {
+
+    transition: 0.5s;
+    background-color: rgb(22, 22, 22);
+    color: white;
 }
 
 .contact-form {
@@ -246,6 +255,7 @@ width: 100%;
     padding: 2%;
     width: 100%;
 }
+
 
 @media only screen and (max-width: 600px) {
     
