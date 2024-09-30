@@ -1,3 +1,8 @@
+:root {
+
+    color-scheme: dark;
+}
+
 body {
     margin-top: 5vh;
     font-family: "Space Grotesk", sans-serif;
@@ -107,7 +112,7 @@ margin-bottom: 10vh;
     transition: 0.2s ease-in;
 }
 
-.skills {
+.skills, .projects {
 
     background-color: #212121;
     padding: 10vh;
@@ -195,6 +200,31 @@ width: 100%;
 
 }
 
+.project-card {
+
+    display: flex;
+    margin-bottom: 10%;
+    background-color: rgb(203, 20, 20);
+    padding: 7vh;
+    border-radius: 25px;
+    min-width: 600px;
+}
+
+.card-text {
+
+    margin-left: 10%;
+}
+
+.card-image {
+
+    border-radius: 25px;
+    overflow-x: hidden;
+    width: 300px;
+    display: block;
+    min-width: 300px;
+    max-width: 300px;
+    box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.3);
+}
 
 
 .footer-container {
