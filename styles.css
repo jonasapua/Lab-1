@@ -14,7 +14,8 @@ body {
 
 a {
 
-color: inherit
+color: inherit;
+text-decoration: none;
 
 }
 
@@ -257,21 +258,12 @@ width: 100%;
 }
 
 
+
 @media only screen and (max-width: 600px) {
     
     .navbar {
 
         width: 85%;
-    }
-    
-    .hero {
-
-
-    }
-    
-    .hero-text {
-        
-
     }
 
     .hero-button {
@@ -279,5 +271,47 @@ width: 100%;
         font-size: 5vw;
 
     }
+
+    .projects {
+
+        padding: 10%;
+        margin: auto;
+    }
+
+    .project-card {
+
+        display: block;
+        padding: 4vh;
+        min-width: 200px;
+        max-width: 550px;
+        width: auto;
+    }
+
+    .card-text {
+
+        margin-left: 0%;
+        max-width: 100%;
+        width: 300px;
+        
+        
+    }
+
+    .card-image {
+
+        min-width: 50px;
+        max-width: 250px;
+    }
+
+
   }
 
+  @media only screen and (max-width: 400px) {
+
+.card-image {
+
+min-width: 50px;
+max-width: 200px;
+
+}
+
+  }
